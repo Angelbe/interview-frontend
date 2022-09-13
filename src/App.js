@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import Card from "./components/Card";
 //1. Call this API (https://rickandmortyapi.com/api/character) when you click this button
 //2. Fetch all data on first render and save it on state.
-//3. create a Card component with name, gender and an image of the character, pass it one character data and put it in the middle of the screen.
+//3. create a Card component with name, gender and an image of the character, pass it one character and put it in the middle of the screen.
+//4. Create a row of 4 cards
 
 const getCharacters = () => {
     return axios
@@ -24,11 +25,13 @@ export default function App() {
         });
     }, []);
 
-    console.log(characters);
-
     return (
         <div className="App">
-            {characters.length > 0 && <Card character={characters[0]} />}
+            <div className="CardContainer">
+                {characters.slice(0, 4).map((character) => (
+                    <Card key={character.name} character={character} />
+                ))}
+            </div>
         </div>
     );
 }
