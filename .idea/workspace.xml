@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e3db4b6-756b-4d00-91cf-2a28349055cc" name="Changes" comment="solved 1">
+    <list default="true" id="1e3db4b6-756b-4d00-91cf-2a28349055cc" name="Changes" comment="solved 2">
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663067805251</updated>
       <workItem from="1663067806351" duration="393000" />
-      <workItem from="1663068525392" duration="812000" />
+      <workItem from="1663068525392" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="soloved 8 complete">
       <created>1663068012540</created>
@@ -67,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663068709458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solved 2">
+      <created>1663070847444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663070847444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
     <MESSAGE value="soloved 8 complete" />
     <MESSAGE value="interview start" />
     <MESSAGE value="solved 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 1" />
+    <MESSAGE value="solved 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 2" />
   </component>
 </project>

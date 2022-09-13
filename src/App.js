@@ -1,8 +1,10 @@
 import "./styles.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Card from "./components/Card";
 //1. Call this API (https://rickandmortyapi.com/api/character) when you click this button
 //2. Fetch all data on first render and save it on state.
+//3. create a Card component with name, gender and an image of the character, pass it one character data and put it in the middle of the screen.
 
 const getCharacters = () => {
     return axios
@@ -26,7 +28,7 @@ export default function App() {
 
     return (
         <div className="App">
-            <button onClick={getCharacters}>cal API</button>
+            {characters.length > 0 && <Card character={characters[0]} />}
         </div>
     );
 }
