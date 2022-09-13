@@ -16,6 +16,13 @@ body,
 .CardContainer {
   margin-top: 15px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media only screen and (min-width: 800px) {
+  .CardContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
 }

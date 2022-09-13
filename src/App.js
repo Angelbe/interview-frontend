@@ -8,6 +8,7 @@ import Card from "./components/Card";
 //4. Create a row of 4 cards
 //5. Now create a grid/table of 3 rows and 4 columns with 12 characters
 //6. create a button which sorts names by A→Z or Z→A when pressed
+//7. In mobile have only two column while keeping 4 in desktop as a mobile first design
 
 const getCharacters = () => {
     return axios
