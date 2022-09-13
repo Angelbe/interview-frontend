@@ -6,6 +6,7 @@ import Card from "./components/Card";
 //2. Fetch all data on first render and save it on state.
 //3. create a Card component with name, gender and an image of the character, pass it one character and put it in the middle of the screen.
 //4. Create a row of 4 cards
+//5. Now create a grid/table of 3 rows and 4 columns with 12 characters
 
 const getCharacters = () => {
     return axios
@@ -28,7 +29,7 @@ export default function App() {
     return (
         <div className="App">
             <div className="CardContainer">
-                {characters.slice(0, 4).map((character) => (
+                {characters.slice(0, 12).map((character) => (
                     <Card key={character.name} character={character} />
                 ))}
             </div>

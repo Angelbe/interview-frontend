@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e3db4b6-756b-4d00-91cf-2a28349055cc" name="Changes" comment="solved 3">
+    <list default="true" id="1e3db4b6-756b-4d00-91cf-2a28349055cc" name="Changes" comment="solved 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
@@ -14,7 +14,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="solved3" />
+        <entry key="$PROJECT_DIR$" value="solved4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663067805251</updated>
       <workItem from="1663067806351" duration="393000" />
-      <workItem from="1663068525392" duration="1245000" />
+      <workItem from="1663068525392" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="soloved 8 complete">
       <created>1663068012540</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663070890705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="solved 4">
+      <created>1663071275870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663071275870</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
     <MESSAGE value="solved 1" />
     <MESSAGE value="solved 2" />
     <MESSAGE value="solved 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved 3" />
+    <MESSAGE value="solved 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved 4" />
   </component>
 </project>
