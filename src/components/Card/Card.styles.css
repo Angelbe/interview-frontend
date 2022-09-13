@@ -1,0 +1,13 @@
+.card {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  width: 100px;
+  font-size: 12px;
+}
+
+.cardImage {
+  max-width: 100px;
+}
