@@ -7,12 +7,14 @@ body,
 .App {
   font-family: sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-flow: column;
   height: 100%;
 }
 
 .CardContainer {
+  margin-top: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
