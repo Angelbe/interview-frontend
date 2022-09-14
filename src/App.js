@@ -8,6 +8,8 @@ import Card from "./components/Card";
 //4. Create a row of 4 cards
 //5. Now create a grid/table of 3 rows and 4 columns with 12 characters
 //6. create a button which sorts names by A→Z or Z→A when pressed
+// extra points:
+//6.1. sort by last name
 
 const getCharacters = () => {
     return axios
@@ -31,11 +33,26 @@ export default function App() {
     }, []);
 
     useEffect(() => {
+        const charactersSorted = characters
+            .slice(0, 12)
+            .sort((firstCharacter, secondCharacter) => {
+                if (
+                    firstCharacter.name.split("").slice(-1) >
+                    secondCharacter.name.split("").slice(-1)
+                )
+                    return 1;
+                if (
+                    firstCharacter.name.split("").slice(-1) <
+                    secondCharacter.name.split("").slice(-1)
+                )
+                    return -1;
+                return 0;
+            });
         if (sortType === "alphabetically") {
-            setCharactersModified(characters.slice(0, 12).sort());
+            setCharactersModified(charactersSorted);
         }
         if (sortType === "unalphabetically") {
-            setCharactersModified(characters.slice(0, 12).reverse());
+            setCharactersModified(charactersSorted.reverse());
         }
     }, [sortType]);
 
