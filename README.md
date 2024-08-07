@@ -1,4 +1,4 @@
-A code test interview I made for other people to complete
+A code test interview I made for interviewing other people.
 
 # interview-frontend
 Created with CodeSandbox by Angelbe
